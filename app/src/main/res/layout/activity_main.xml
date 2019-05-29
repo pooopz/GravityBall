@@ -2,16 +2,66 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/l"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="SELECT 5 STONES"/>
+
+    <LinearLayout
+        android:id="@+id/l"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
     <ImageView
-        android:id="@+id/ball"
-        android:layout_width="50dp"
+        android:id="@+id/blue"
+        android:layout_width="0dp"
+        android:layout_weight="1"
         android:layout_height="50dp"
-        android:src="@drawable/ball"
-        android:layout_gravity="center_horizontal" />
+        android:src="@drawable/blue" />
+    <ImageView
+        android:id="@+id/green"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:src="@drawable/green" />
+    <ImageView
+        android:id="@+id/red"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:src="@drawable/red" />
+    <ImageView
+        android:id="@+id/yellow"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:src="@drawable/yellow" />
+    <ImageView
+        android:id="@+id/violet"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:src="@drawable/violet" />
+
+    <ImageView
+        android:id="@+id/orange"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:src="@drawable/orange" />
+    </LinearLayout>
 </LinearLayout>
